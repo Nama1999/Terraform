@@ -24,3 +24,9 @@ resource "azurerm_resource_group" "Resgrp" {
   location = var.location
 
 }
+
+resource " azurerm_resource_group" "RG" {
+count = 3
+name = "rg-${count.index}"
+location = "East US"
+}
