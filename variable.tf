@@ -28,3 +28,8 @@ variable "location" {
     type = string
     default = "East US"
 }
+
+variable "RG" {
+  type = string
+  
+}
