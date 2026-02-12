@@ -33,3 +33,7 @@ variable "RG" {
   type = string
   
 }
+variable "RGy" {
+  type = string 
+  
+}
